@@ -5,21 +5,31 @@
 	<TextView android:id="@+id/title" 
 	          android:layout_width="wrap_content"
 		      android:layout_height="wrap_content" 
+		      android:layout_marginBottom="10px"
 		      android:text="Hello, Je suis votre porte monnaie" />
 	<TextView android:id="@+id/label" 
 	          android:layout_width="wrap_content"
 		      android:layout_height="wrap_content" 
-		      android:text="Hello, Je suis votre porte monnaie" />
-	<EditText android:id="@+id/editText"
+		      android:layout_marginBottom="10px"
+		      android:text="Veuillez saisir le montant de votre dépense" />
+	<EditText android:id="@+id/amount"
 		      android:layout_marginBottom="5px" 
 		      android:layout_width="fill_parent"
 		      android:layout_height="wrap_content" />
-	<Button android:id="@+id/myCreditCard" 
+    <ImageButton android:id="@+id/myCreditCard" 
+	          android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:src="@drawable/visa" >
+    </ImageButton>
+	<ImageButton android:id="@+id/myAmex" 
 	          android:layout_width="wrap_content"
 		      android:layout_height="wrap_content" 
-		      android:text="carte bleue" />
-	<Button android:id="@+id/myAmex" 
-	          android:layout_width="wrap_content"
-		      android:layout_height="wrap_content" 
-		      android:text="american express" />
+		      android:src="@drawable/amex" >
+    </ImageButton>
+    <TextView android:id="@+id/result" 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:layout_marginBottom="10px"
+              android:text="Veuillez saisir le montant de votre dépense" />
+
 </LinearLayout>
