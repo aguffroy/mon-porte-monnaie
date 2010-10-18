@@ -1,3 +1,4 @@
 git add . puis 
 git commit -am version 2 puis 
 git push origin master 
+git pull <=> svn up
